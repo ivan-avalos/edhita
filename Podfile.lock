@@ -39,38 +39,9 @@ PODS:
   - FXForms (1.2.14)
   - GHMarkdownParser (0.1.2)
   - github-markdown-css (0.1.0)
-  - Google-Mobile-Ads-SDK (7.43.1):
-    - GoogleAppMeasurement (~> 6.0)
-  - GoogleAppMeasurement (6.0.0):
-    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
-    - GoogleUtilities/MethodSwizzler (~> 6.0)
-    - GoogleUtilities/Network (~> 6.0)
-    - "GoogleUtilities/NSData+zlib (~> 6.0)"
-    - nanopb (~> 0.3)
-  - GoogleUtilities/AppDelegateSwizzler (6.0.0):
-    - GoogleUtilities/Environment
-    - GoogleUtilities/Logger
-    - GoogleUtilities/Network
-  - GoogleUtilities/Environment (6.0.0)
-  - GoogleUtilities/Logger (6.0.0):
-    - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (6.0.0):
-    - GoogleUtilities/Logger
-  - GoogleUtilities/Network (6.0.0):
-    - GoogleUtilities/Logger
-    - "GoogleUtilities/NSData+zlib"
-    - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (6.0.0)"
-  - GoogleUtilities/Reachability (6.0.0):
-    - GoogleUtilities/Logger
   - Megrim (0.1.0)
-  - MGSwipeTableCell (1.6.8)
-  - nanopb (0.3.901):
-    - nanopb/decode (= 0.3.901)
-    - nanopb/encode (= 0.3.901)
-  - nanopb/decode (0.3.901)
-  - nanopb/encode (0.3.901)
-  - SwiftLint (0.32.0)
+  - MGSwipeTableCell (1.6.11)
+  - SwiftLint (0.40.3)
   - VTAcknowledgementsViewController (0.17)
 
 DEPENDENCIES:
@@ -82,13 +53,12 @@ DEPENDENCIES:
   - FXForms (~> 1.2)
   - GHMarkdownParser (~> 0.1)
   - github-markdown-css (from `https://raw.githubusercontent.com/tnantoka/podspecs/master/Specs/github-markdown-css/github-markdown-css.podspec`)
-  - Google-Mobile-Ads-SDK
   - Megrim (from `https://raw.githubusercontent.com/tnantoka/podspecs/master/Specs/Megrim/Megrim.podspec`)
   - SwiftLint
   - VTAcknowledgementsViewController (~> 0.12)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Colours
     - EDHFinder
     - EDHFontSelector
@@ -98,11 +68,7 @@ SPEC REPOS:
     - FontAwesomeKit
     - FXForms
     - GHMarkdownParser
-    - Google-Mobile-Ads-SDK
-    - GoogleAppMeasurement
-    - GoogleUtilities
     - MGSwipeTableCell
-    - nanopb
     - SwiftLint
     - VTAcknowledgementsViewController
 
@@ -115,7 +81,7 @@ EXTERNAL SOURCES:
     :podspec: https://raw.githubusercontent.com/tnantoka/podspecs/master/Specs/Megrim/Megrim.podspec
 
 SPEC CHECKSUMS:
-  Bootstrap: 22c5f86c1970b2d3d485f583a711012eac0d32e3
+  Bootstrap: cbbdd0eec527ba4b52611893814ff3b7d8075a0e
   Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
   EDHFinder: 26c9daabda0a535f68db0451ae2bd4eaefad4469
   EDHFontSelector: db446999fa1bd5db9dbd3709018790d2dfc27f76
@@ -125,16 +91,12 @@ SPEC CHECKSUMS:
   FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
   FXForms: 724500c0c3f3eb3ba1004b3b83abcee55d3daf18
   GHMarkdownParser: 14cbf59d0ab9450017d843dffd4a3ef691e5bd77
-  github-markdown-css: 829d641e9e4757e468bf1d394d3daab654c51cb2
-  Google-Mobile-Ads-SDK: 9d3474acb70a6c12bfa69c9fe1ac28d7de8b9be9
-  GoogleAppMeasurement: 7f028ea162b72c8f326daec74afc95d94f7a47d6
-  GoogleUtilities: f1faafc033ea203adf1783ce00af455bb99d0e5b
-  Megrim: 1ef3b73344e1ac96195d8dbdba647966437ae9c0
-  MGSwipeTableCell: dc4eca3212ed38a563b27d6aa7b3c01ce656c1e2
-  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
-  SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
+  github-markdown-css: b6933c585e912d9c4b35a5204f1f12e18360b214
+  Megrim: 8498c70aac297ca841e38e3400e45323be9cf6ef
+  MGSwipeTableCell: b804e4e450dee439c42250be90bd50458bf67fce
+  SwiftLint: dfd554ff0dff17288ee574814ccdd5cea85d76f7
   VTAcknowledgementsViewController: 6056f5f5e5ed995bbf0581bed6ddd29355ca9a80
 
-PODFILE CHECKSUM: fd22b4be12cfe66cb282ef5ef737fcdcc3c65781
+PODFILE CHECKSUM: 3d97326b2fc0a93f32ca4b56fc6593384dba461d
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.10.0

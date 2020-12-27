@@ -21,7 +21,6 @@
 		9B6E1EAB19E2EB2200C72D13 /* EdhitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6E1EAA19E2EB2200C72D13 /* EdhitaTests.swift */; };
 		9B6E1EBD19E35C2300C72D13 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6E1EBC19E35C2300C72D13 /* EditorViewController.swift */; };
 		9B6E1EBF19E423A100C72D13 /* FinderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6E1EBE19E423A100C72D13 /* FinderListViewController.swift */; };
-		9B91999119E429B0003751FA /* AppSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91999019E429B0003751FA /* AppSecret.swift */; };
 		9B91999419E5185C003751FA /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91999319E5185C003751FA /* EditorView.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +55,6 @@
 		9B6E1EB419E3587900C72D13 /* Edhita-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Edhita-Bridging-Header.h"; sourceTree = "<group>"; };
 		9B6E1EBC19E35C2300C72D13 /* EditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
 		9B6E1EBE19E423A100C72D13 /* FinderListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinderListViewController.swift; sourceTree = "<group>"; };
-		9B91999019E429B0003751FA /* AppSecret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSecret.swift; sourceTree = "<group>"; };
 		9B91999319E5185C003751FA /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 		C9064963BAFB1A9695BB7AC8 /* libPods-Edhita.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Edhita.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E29EC0DAB28A9310422CC0 /* Pods-Edhita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edhita.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Edhita/Pods-Edhita.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 		9B91998F19E42827003751FA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9B91999019E429B0003751FA /* AppSecret.swift */,
 				9B2E0A5519E683CC002E9CA4 /* SettingsForm.swift */,
 				9B4A580B2191DB2B00D780A0 /* Utility.swift */,
 			);
@@ -246,12 +243,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = tnantoka;
 				TargetAttributes = {
 					9B6E1E8C19E2EB2100C72D13 = {
 						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = H4Z42X3L6X;
+						DevelopmentTeam = 358YRZ9P3L;
 						LastSwiftMigration = 1020;
 					};
 					9B6E1EA319E2EB2100C72D13 = {
@@ -387,7 +384,6 @@
 				9B6E1EBF19E423A100C72D13 /* FinderListViewController.swift in Sources */,
 				9B4A580C2191DB2B00D780A0 /* Utility.swift in Sources */,
 				9B6E1EBD19E35C2300C72D13 /* EditorViewController.swift in Sources */,
-				9B91999119E429B0003751FA /* AppSecret.swift in Sources */,
 				9B2E0A5819E6C876002E9CA4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +450,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -478,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -510,6 +507,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -527,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -543,10 +541,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 16;
-				DEVELOPMENT_TEAM = H4Z42X3L6X;
+				DEVELOPMENT_TEAM = 358YRZ9P3L;
 				INFOPLIST_FILE = Edhita/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bornneet.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dulcedosystems.Edhita;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Edhita/Edhita-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -561,10 +559,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 16;
-				DEVELOPMENT_TEAM = H4Z42X3L6X;
+				DEVELOPMENT_TEAM = 358YRZ9P3L;
 				INFOPLIST_FILE = Edhita/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bornneet.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dulcedosystems.Edhita;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Edhita/Edhita-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

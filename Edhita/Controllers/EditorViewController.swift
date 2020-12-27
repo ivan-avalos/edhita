@@ -168,10 +168,10 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
             handler: { (_: UIAlertAction!) in
                 guard let item = self.finderItem else { return }
 
-                var items: [Any] = [item.fileURL()]
+                var items: [Any] = [item.fileURL()!]
 
                 if item.isEditable() {
-                    items.append(item.content())
+                    items.append(item.content()!)
                 }
 
                 let activityController = UIActivityViewController(activityItems: items, applicationActivities: nil)

@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         self.initExample()
 
         self.editorController = EditorViewController()
-        let _ = editorController.view // Force load view
+        _ = editorController.view // Force load view
         let editorNavController = UINavigationController(rootViewController: self.editorController)
 
         EDHFinder.shared().toolbarHidden = false
@@ -99,7 +99,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         UINavigationBar.appearance().barTintColor = UIColor.coolGray()
         UINavigationBar.appearance().tintColor = UIColor.white
         UINavigationBar.appearance().titleTextAttributes = [
-            NSAttributedString.Key.foregroundColor: UINavigationBar.appearance().tintColor
+            NSAttributedString.Key.foregroundColor: UINavigationBar.appearance().tintColor ?? UIColor.black
         ]
 
         UIToolbar.appearance().barTintColor = UINavigationBar.appearance().barTintColor
